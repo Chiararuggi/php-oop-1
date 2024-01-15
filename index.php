@@ -5,8 +5,11 @@ require __DIR__ . '/Models/Movie.php';
  $secondMovie = new Movie("Il Grande Gatsby", "Un aspirante scrittore arriva a New York nel 1922 in cerca del sogno americano.", 2013);
 
  var_dump($firstMovie);
+ echo "<br>";
  var_dump($secondMovie);
+ echo "<br>";
 
  echo $firstMovie->getMovie();
+ echo "<br>";
  echo $secondMovie->getMovie();
 
