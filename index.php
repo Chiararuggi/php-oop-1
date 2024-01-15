@@ -4,4 +4,7 @@
 
  var_dump($firstMovie);
  var_dump($secondMovie);
+
+ echo $firstMovie->getMovie();
+ echo $secondMovie->getMovie();
  ?>
